@@ -1,0 +1,52 @@
+.nav-holder {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+    nav {
+        margin: auto;
+        max-width: $site-nav-width;
+        height: $site-nav-height;
+        border-bottom: solid white 2px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        padding-bottom: 22px;
+
+        .logo {
+            width: 92px;
+            height: 42px;
+            margin-right: 20px;
+        }
+
+        .anchor {
+            display: flex;
+            justify-content: space-between;
+            width: 500px;
+
+            a {
+                text-decoration: none;
+                color: $site-white; 
+                font-family: gillmore;  
+                font-size: 15px; 
+                margin: 5px 15px 5px 15px;
+            }
+
+            p{
+                color: #79ADDC;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:980px){
+    .anchor {
+        flex-wrap: wrap;
+    }
+}
