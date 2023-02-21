@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5, h6, p {
   margin: auto;
   max-width: 980px;
   height: 90px;
-  border-bottom: solid white 2px;
+  border-bottom: solid #000 2px;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .nav-holder nav .anchor a {
   text-decoration: none;
-  color: #fff;
+  color: #000;
   font-family: gillmore;
   font-size: 15px;
   margin: 5px 15px 5px 15px;
@@ -298,6 +298,10 @@ h1, h2, h3, h4, h5, h6, p {
   margin-top: 30px;
   margin-right: 20px;
   margin-left: 20px;
+}
+.home .about-des {
+  height: 500px;
+  width: 100%;
 }
 
 @media screen and (max-width: 980px) {
