@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5, h6, p {
   margin: auto;
   max-width: 980px;
   height: 90px;
-  border-bottom: solid #000 2px;
+  border-bottom: solid #fff 2px;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .nav-holder nav .anchor a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
   font-family: gillmore;
   font-size: 15px;
   margin: 5px 15px 5px 15px;
@@ -129,9 +129,43 @@ h1, h2, h3, h4, h5, h6, p {
   color: #79ADDC;
   font-size: 20px;
 }
+.nav-holder .about-nav {
+  margin: auto;
+  max-width: 980px;
+  height: 90px;
+  border-bottom: solid #000 2px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-bottom: 22px;
+}
+.nav-holder .about-nav .logo {
+  width: 92px;
+  height: 42px;
+  margin-right: 20px;
+}
+.nav-holder .about-nav .about-anchor {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+.nav-holder .about-nav .about-anchor a {
+  text-decoration: none;
+  color: #000;
+  font-family: gillmore;
+  font-size: 15px;
+  margin: 5px 15px 5px 15px;
+}
+.nav-holder .about-nav .about-anchor p {
+  color: #79ADDC;
+  font-size: 20px;
+}
 
 @media screen and (max-width: 980px) {
   .anchor {
+    flex-wrap: wrap;
+  }
+  .about-anchor {
     flex-wrap: wrap;
   }
 }
