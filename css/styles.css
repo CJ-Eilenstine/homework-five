@@ -374,7 +374,7 @@ footer .socialmedia {
   margin: 0 auto 0px auto;
   top: 90px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-evenly;
   flex-direction: column;
   padding: 10px;
