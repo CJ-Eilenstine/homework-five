@@ -370,10 +370,25 @@ footer .socialmedia {
 .about-wrapper {
   position: relative;
   height: 80vh;
-  width: 80%;
+  width: 75%;
   background-color: antiquewhite;
   margin: 0 auto 0px auto;
   top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 10px;
+}
+.about-wrapper .about-des h1 {
+  font-size: 60px;
+  font-family: proxima;
+  display: inline-block;
+  border-bottom: solid #000 2px;
+}
+.about-wrapper .about-des p {
+  font-size: 16px;
+  font-family: gillmore;
 }
 
 /*# sourceMappingURL=styles.css.map */
