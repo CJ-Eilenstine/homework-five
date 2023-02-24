@@ -21,3 +21,10 @@
     justify-content: space-between;
     padding-bottom: 22px;
 }
+
+@mixin h1-format($font: $h1-font-size){
+    font-size: $font;
+    font-family: proxima;
+    display: inline-block;
+    border-bottom: solid #000 2px;
+}

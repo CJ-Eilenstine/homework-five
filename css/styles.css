@@ -369,9 +369,8 @@ footer .socialmedia {
 
 .about-wrapper {
   position: relative;
-  height: 80vh;
+  min-height: 80vh;
   width: 75%;
-  background-color: antiquewhite;
   margin: 0 auto 0px auto;
   top: 90px;
   display: flex;
@@ -379,6 +378,10 @@ footer .socialmedia {
   justify-content: space-evenly;
   flex-direction: column;
   padding: 10px;
+}
+.about-wrapper .about-des {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .about-wrapper .about-des h1 {
   font-size: 60px;
@@ -389,6 +392,46 @@ footer .socialmedia {
 .about-wrapper .about-des p {
   font-size: 16px;
   font-family: gillmore;
+}
+.about-wrapper .about-quotes {
+  margin-bottom: 130px;
+}
+.about-wrapper .about-quotes h1 {
+  font-size: 40px;
+  font-family: proxima;
+  display: inline-block;
+  border-bottom: solid #000 2px;
+  margin-bottom: 37px;
+}
+.about-wrapper .about-quotes .client {
+  max-width: 670px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-bottom: 37px;
+}
+.about-wrapper .about-quotes .client img {
+  height: 150px;
+  width: 260px;
+}
+.about-wrapper .about-quotes .client .client-text {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 410px;
+}
+.about-wrapper .about-quotes .client .client-text p {
+  font-size: 16px;
+  font-family: gill italic;
+  margin-left: 20px;
+}
+.about-wrapper .about-quotes .client .client-text .client-name {
+  margin-left: 20px;
+  text-align: right;
+  font-family: proxima;
+  font-size: 20px;
+  color: #79addc;
 }
 
 /*# sourceMappingURL=styles.css.map */
